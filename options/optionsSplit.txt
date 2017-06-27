@@ -1,0 +1,17 @@
+**CONFIG=begin
+inputfile=/home/optiva/Escritorio/input/02_HDready.mp4
+outputfolder=/home/optiva/Escritorio/output/bbb/CutAndJoinTest/
+threads=4
+**CONFIG=end
+**SPLIT=begin
+times=4
+comment=bbb splitted
+name=bbb_split_part_.mp4
+videocodec=libx264
+audiocodec=ac3
+h264.speed=ultrafast
+h264.crf=23
+fullvideo=yes
+duration=634
+**SPLIT=end
+**ENDFILE

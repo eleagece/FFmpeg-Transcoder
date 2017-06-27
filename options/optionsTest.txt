@@ -1,0 +1,16 @@
+**CONFIG=begin
+inputfile=/home/optiva/Escritorio/bbb4K.mp4
+outputfolder=/home/optiva/Escritorio/output/bbb/
+threads=4
+**CONFIG=end
+**OUTPUT=begin
+comment=4K to SD
+name=SD.mpg
+resolution=720x576
+videobitrate=5000
+videocodec=mpeg2video
+audiocodec=copy
+timestart=10
+duration=5
+**OUTPUT=end
+**ENDFILE

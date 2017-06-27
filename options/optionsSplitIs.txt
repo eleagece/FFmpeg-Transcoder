@@ -1,0 +1,18 @@
+**CONFIG=begin
+inputfile=is_640x480.mp4
+inputfolder=/home/optiva/Escritorio/input/
+outputfolder=/home/optiva/Escritorio/output/is/CutAndJoinTest/
+threads=4
+**CONFIG=end
+**SPLIT=begin
+times=4
+comment=is splitted
+name=is_split_part_.mp4
+videocodec=libx264
+audiocodec=ac3
+h264.speed=ultrafast
+h264.crf=23
+fullvideo=yes
+duration=262
+**SPLIT=end
+**ENDFILE

@@ -1,0 +1,13 @@
+**CONFIG=begin
+inputfile=/home/optiva/Escritorio/is.mp4
+outputfolder=/home/optiva/Escritorio/output/
+threads=4
+**CONFIG=end
+**OUTPUT=begin
+comment=Resize and rebitrate
+name=resized_rebitrated_is2.mp4
+audiocodec=copy
+videobitrate=50
+resolution=320x240
+**OUTPUT=end
+**ENDFILE
